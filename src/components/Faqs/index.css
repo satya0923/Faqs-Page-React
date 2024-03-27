@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto';
+  }
+  
+  .app-container {
+    background-color: #f1f5f8;
+    padding: 70px;
+  }
+  
+  .faqs-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 70px;
+  }
+  
+  .heading {
+    font-size: 56px;
+    color: #cb8805;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .list-container {
+    padding-left: 0;
+  }
+  
+  @media (max-width: 576px) {
+    .faqs-container {
+      padding: 20px;
+    }
+  
+    .heading {
+      font-size: 36px;
+    }
+  
+    .app-container {
+      padding: 20px;
+    }
+  }
+  
